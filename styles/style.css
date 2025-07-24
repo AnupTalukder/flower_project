@@ -106,12 +106,10 @@
 
 .banner-style {
     display: flex;
-    margin: 120px 150px 120px 150px;
+    margin: 0px 150px 50px 150px;
     justify-content: space-between;
-    margin-top: 0px !important;
-
-
-
+    
+     
 }
 
 .color1 {
@@ -159,6 +157,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+    
+
 }
 
 .grid-style {
@@ -175,6 +179,22 @@
     padding: 5px 50px;
 }
 
+
+
+/* flower and plant lovers style  */
+
+.container2{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:210px 100px 133px 100px;
+  
+
+
+     
+
+}
 
 
 
@@ -233,10 +253,15 @@
 
 .footer2 {
     display: flex;
+   
+    
 }
 
 .uo1 {
     list-style: none;
+ 
+ 
+    
 }
 
 .list1 {
