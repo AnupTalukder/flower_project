@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-between;
 
-    margin: 30px 150px 105px 150px;
+    margin: 30px 150px 10px 150px;
 }
 
 .uo {
@@ -108,6 +108,7 @@
     display: flex;
     margin: 120px 150px 120px 150px;
     justify-content: space-between;
+    margin-top: 0px !important;
 
 
 
@@ -170,10 +171,8 @@
     justify-content: center;
 }
 
-
-.box {
-   
-
+.button-style {
+    padding: 5px 50px;
 }
 
 
@@ -199,13 +198,17 @@
 }
 
 .email-style {
-    display: flex;
 
-    /* border-style: solid;
-    border-color: blue; */
+    width: 600px;
+    ;
+    padding: 15px;
+    margin-right: none;
 }
-.button-style{
-    padding:5px 50px;
+
+.button-style1 {
+    padding: 10px 55px;
+    font-size: 22px;
+    margin-left: none;
 }
 
 
@@ -240,6 +243,13 @@
 
     margin-bottom: 30px;
     text-align: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start
 }
 
 div>img {
