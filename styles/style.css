@@ -3,6 +3,8 @@
 
 }
 
+/* font style */
+
 
 .text-noto {
     font-family: "Noto Serif", serif;
@@ -11,6 +13,24 @@
     font-style: normal;
     font-variation-settings: "width" 100;
     font-size: 65px;
+}
+.text-noto1 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: Bold;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    color:rgba(255, 255, 255, 1);
+    font-size: 65px;
+}
+
+.text-noto2 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: Bold;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+        font-size: 50px;
 }
 
 .text-inter {
@@ -43,6 +63,7 @@
 
 
 }
+/* header section style  */
 
 
 .navi {
@@ -91,6 +112,14 @@
 .color1 {
 
     color: rgba(233, 90, 8, 1);
+     
+}
+.color2 {
+
+    background-color: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    
+     
 }
 
 .banner-description {
@@ -109,4 +138,93 @@
     width: 570px;
 
 
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* our plant section  */
+
+.grid-style{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: 480px 480px;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+    .box{
+        border-style: solid;
+         border-color: slateblue;
+
+    }
+
+
+
+
+/* Join section style */
+
+
+.join-style{
+  background-image: url('../assets/news-letter-bg.png');
+  height: 533px;
+  background-size: cover;
+
+  /* width:100%; */
+    
+}
+   .join-div-style{
+    padding: 100px 290px 190px 350px;
+    /* border-style: solid;
+    border-color:green; */
+
+   }
+   .email-style{
+   display: flex;
+   
+    /* border-style: solid;
+    border-color: blue; */
+   }
+   
+
+
+
+
+
+
+
+/* footer styles */
+
+.footer-style{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
+.footer1{
+    display:block;
+}
+
+.footer2{
+ display:flex;
+}
+
+.uo1{
+   list-style: none; 
+}
+
+.list1 {
+
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div>img{
+    margin-right: 20px;
 }
