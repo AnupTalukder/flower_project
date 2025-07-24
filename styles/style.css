@@ -1,0 +1,112 @@
+.HH {
+    height: 862px;
+
+}
+
+
+.text-noto {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: Bold;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 65px;
+}
+
+.text-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-inter1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+     font-size: 22px;
+    color: rgba(37, 36, 50, 1);
+
+   
+
+
+}
+.text-inter2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+     font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+
+
+}
+
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 30px 150px 105px 150px;
+}
+
+.uo {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.list {
+
+    margin-right: 48px;
+    text-align: center;
+}
+
+.ancors {
+
+    text-decoration: none;
+}
+
+.banner-style {
+    display: flex;
+    margin: 120px 150px 120px 150px;
+    justify-content: space-between;
+
+
+
+}
+
+.color1 {
+
+    color: rgba(233, 90, 8, 1);
+}
+
+.banner-description {
+    margin-top: 162px;
+    align-content: last baseline;
+    width: 570px;
+
+
+
+}
+
+.flower1 {
+    margin-top: 106px;
+    align-content: last baseline;
+    padding-left: 30px;
+    width: 570px;
+
+
+}
