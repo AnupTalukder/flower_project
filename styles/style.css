@@ -659,8 +659,8 @@ div>img {
 
     .footer-icon {
         display: flex;
-        border-style: solid;
-        border-color: black;
+        margin: 0px;
+        justify-content:left;
         
     }
 
