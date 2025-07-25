@@ -37,7 +37,7 @@
 .text-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
@@ -162,7 +162,7 @@
     text-align: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 
     
@@ -188,12 +188,23 @@
 /* flower and plant lovers style  */
 
 .container2{
-    display: flex;
-     justify-content: center;
+    display: grid;
+     justify-content:center;
     align-items: center;
     text-align: center;
-    margin:210px 100px 133px 100px;
+    grid-template-columns: repeat(2,auto);
+    gap:70px;
+    align-self: left;
+    margin-right: 80px;
+    
+   
+    
 
+}
+
+
+.trusted-logo{
+    transform: translateX(650px) translateY(-420px);
 }
 
 
@@ -214,6 +225,7 @@
     grid-template-columns: repeat(2, 2fr);
     
     gap: 10px;
+    column-gap: 5px !important;
     margin-bottom: 50px;
    
     align-items: center;
@@ -242,7 +254,7 @@
      background-image: url('../assets/deal-zabo.png');
      display:cover;
       margin-right: 150px;
-      margin-left: 0px;
+     
 
 }
 .box3{
