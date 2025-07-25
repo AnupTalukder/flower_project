@@ -212,10 +212,20 @@
 
 
 .trusted-logo {
-    transform: translateX(650px) translateY(-420px);
+     /* transform: translateX(650px) translateY(-420px);  */
      
       filter: drop-shadow(5px 5px 10px rgba(30, 10, 10, 1));
+       
+       animation: rotate360 3s linear infinite;
     
+}
+ @keyframes rotate360 {
+  0% {
+    transform: translateX(650px) translateY(-420px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(650px) translateY(-420px) rotate(360deg);
+  }
 }
 
 
