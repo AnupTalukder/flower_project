@@ -213,6 +213,9 @@
 
 .trusted-logo {
     transform: translateX(650px) translateY(-420px);
+     
+      filter: drop-shadow(5px 5px 10px rgba(30, 10, 10, 1));
+    
 }
 
 
@@ -678,6 +681,10 @@ div>img {
         padding-left: 20px;
         margin-right: 20px !important;
     }
+    .k {
+    padding-top: 80px;
+    padding-left: 20px;
+}
 
 
     /* overflow */
@@ -732,7 +739,7 @@ div>img {
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:429px) {
 
     /* banner section */
 
