@@ -11,8 +11,8 @@
     font-optical-sizing: auto;
     font-weight: Bold;
     font-style: normal;
-    font-variation-settings: "width" 100;
-    font-size: 65px;
+    /* font-variation-settings: "width" 100; */
+    font-size: 4.06rem;
 }
 
 .text-noto1 {
@@ -20,9 +20,9 @@
     font-optical-sizing: auto;
     font-weight: Bold;
     font-style: normal;
-    font-variation-settings: "width" 100;
+    /* font-variation-settings: "width" 100; */
     color: rgba(255, 255, 255, 1);
-    font-size: 65px;
+    font-size: 4.06rem;
 }
 
 .text-noto2 {
@@ -30,8 +30,8 @@
     font-optical-sizing: auto;
     font-weight: Bold;
     font-style: normal;
-    font-variation-settings: "width" 100;
-    font-size: 50px;
+    /* font-variation-settings: "width" 100; */
+    font-size: 3.12rem;
 }
 
 .text-inter {
@@ -39,7 +39,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -48,7 +48,7 @@
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: rgba(37, 36, 50, 1);
 
 
@@ -61,7 +61,7 @@
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: rgba(0, 0, 0, 1);
 
 
@@ -281,7 +281,7 @@
 }
 
 .discount {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     align-items: center;
     padding-top: 30px;
@@ -289,7 +289,7 @@
 }
 
 .discount1 {
-    font-size: 50px;
+    font-size: 3.12rem;
     text-align: center;
     align-items: center;
     padding-top: 50px;
@@ -299,35 +299,56 @@
 
 /* Join section style */
 
+.join-div-style {
 
-.join-style {
     background-image: url('../assets/news-letter-bg.png');
-    height: 533px;
+    height: 530px;
     background-size: cover;
-    mar
-    /* width:100%; */
+    padding: 100px 290px 190px 350px;
+    border-style: solid;
+    border-color: green;
 
 }
 
-.join-div-style {
-    padding: 100px 290px 190px 350px;
-    /* border-style: solid;
-    border-color:green; */
-
+.k {
+    padding-top: 80px;
+    padding-left: 30px;
 }
 
 .email-style {
 
-    width: 600px;
-
+    /* width: 600px;
     padding: 15px;
-    margin-right: none;
+    margin-right: none; */
+
+
+    flex: 3; /* 3 parts out of 4 */
+  padding: 10px;
+  font-size: 1rem;  
+  border: none; 
+  height: 45px;
 }
 
 .button-style1 {
-    padding: 10px 55px;
+    /* padding: 10px 55px;
     font-size: 22px;
-    margin-left: none;
+    margin-left: none; */
+
+     flex: 1; 
+ 
+ padding: 10px;
+  border: none;  
+  font-size: 1.25rem;
+  cursor: pointer;
+  height: 62px;
+}
+.button-box{
+    display: flex;
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
@@ -354,16 +375,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 
 }
 
 
 .paragraph1 {
     align-self: first baseline;
-     align-self: left;
-      align-items: first baseline;
-      padding-right: 70px;
+    align-self: left;
+    align-items: first baseline;
+    padding-right: 70px;
 
 
 
@@ -372,12 +393,12 @@
 .list1 {
 
     margin-bottom: 30px;
-    
-    
+
+
     justify-content: space-between;
     align-content: flex-end;
-     align-self: left;
-     align-items:  baseline;
+    align-self: left;
+    align-items: baseline;
 }
 
 .footer-icon {
@@ -397,7 +418,9 @@ div>img {
 
 /* responsive */
 
-@media screen and (max-width:675px) {
+@media screen and (max-width:576px) {
+
+   
 
     /* header */
     .HH {
@@ -411,14 +434,21 @@ div>img {
     .navi {
         display: flex;
         justify-content: space-around;
+       
         margin: 0px;
     }
+
+    /* .m{
+    overflow-wrap: break-word;
+    } */
 
 
     .banner-style {
         display: grid;
         grid-template-rows: auto auto;
         margin: 0px;
+        padding:0px;
+        width: auto;
 
 
 
@@ -436,14 +466,9 @@ div>img {
         margin-left: 0px;
 
     }
+    
 
-    /* .over {
-        overflow: scroll;
-        overflow-x: var(clip) ;
-        overflow-y:scroll;
-        width: auto;
-        text-align: start;
-    } */
+   
 
 
     .f {
@@ -453,13 +478,38 @@ div>img {
 
     .flower1 {
         grid-row: 1;
-        width: auto;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
 
+    }
+
+     .hf{
+        width:100%;
+        margin: 0px;
+        padding: 0px;
     }
 
     /* plant  */
 
-    .grid-style {
+   
+
+    .container {
+        display: grid;
+        margin:0px;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+        width: auto;
+      
+
+    }
+
+
+     .grid-style {
         display: grid;
         grid-template-columns: repeat(2, 274px);
         grid-template-rows: repeat(4, 480px);
@@ -467,20 +517,10 @@ div>img {
         align-items: center;
         text-align: center;
         justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .container {
-        display: grid;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
-
-
-
-
+        margin-bottom: 20px !important;
+        width: auto;
+        margin:0px;
+        padding:0px;
     }
 
     /* flower lover  */
@@ -490,7 +530,7 @@ div>img {
         justify-content: center;
         align-items: center;
         text-align: center;
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(1, 1fr);
         gap: 70px;
         align-self: left;
         margin-right: 80px;
@@ -560,7 +600,7 @@ div>img {
     }
 
     .discount {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: center;
         align-items: center;
         margin-top: 40px;
@@ -569,7 +609,7 @@ div>img {
     }
 
     .discount1 {
-        font-size: 30px;
+        font-size: 1.87rem;
         text-align: center;
         align-items: center;
         padding-top: 50px;
@@ -580,23 +620,26 @@ div>img {
     /* join section */
 
     .join-div-style {
-        padding: auto;
-        margin-top: 50px;
-        /* border-style: solid;
-    border-color:green; */
-
-    }
-
-    .join-style {
+        padding: 0px;
         background-image: url('../assets/news-letter-bg.png');
-        height: 275px;
-        width: auto;
-        /* background-size: cover; */
-
-        /* width:100%; */
+        background-size: cover;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 50px !important;
 
     }
 
+
+    .email-s {
+        display: flex;
+
+        /* white-space:break-spaces; */
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow-wrap: break-word;
+    }
 
     .text-noto1 {
         font-family: "Noto Serif", serif;
@@ -605,8 +648,10 @@ div>img {
         font-style: normal;
         font-variation-settings: "width" 100;
         color: rgba(255, 255, 255, 1);
-        font-size: 35px;
+        font-size: 2.18rem;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -614,26 +659,34 @@ div>img {
 
         width: auto;
         padding: 10px;
-        margin: none;
+        margin: 0px;
 
 
     }
 
     .button-style1 {
         padding: 7px 45px;
-        font-size: 15px;
-        margin-left: none;
+        font-size: 0.94rem;
+        margin-left: 0px;
+        border: none;
+    }
+    .button-box{
+        padding-left: 20px;
     }
 
 
     /* overflow */
-    .body,
-    header,
     main {
         overflow: scroll;
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: scroll;
     }
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+   
 
 
     /* footer */
@@ -660,8 +713,8 @@ div>img {
     .footer-icon {
         display: flex;
         margin: 0px;
-        justify-content:left;
-        
+        justify-content: flex-start;
+
     }
 
     .list1 {
@@ -670,4 +723,104 @@ div>img {
         align-items: first baseline;
 
     }
+}
+
+
+@media screen and (max-width:480px){
+
+/* banner section */
+
+     .banner-style {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: 0px;
+        padding:0px;
+        width: auto;
+
+    }
+
+
+
+    .banner-description {
+        display: grid;
+        grid-row: 2;
+        margin-top: 50px;
+        align-content: center;
+        width: auto;
+        padding-left: 0px;
+        margin-left: 0px;
+
+    }
+      
+
+
+    .f {
+        display: inline-block;
+
+    }
+
+    .flower1 {
+        grid-row: 1;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .hf{
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+
+
+    /* plan section  */
+
+      .container {
+        display: grid;
+        margin:0px;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+        width: auto;
+      
+
+    }
+
+
+     .grid-style {
+        display: grid;
+        grid-template-columns: repeat(1, 274px);
+        grid-template-rows: repeat(8, 480px);
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px !important;
+        width: auto;
+        margin:0px;
+        padding:0px;
+    }
+
+    .email-s {
+        display: flex;
+
+        /* white-space:break-spaces; */
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow-wrap: break-word;
+    }
+
+     .button-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
 }
